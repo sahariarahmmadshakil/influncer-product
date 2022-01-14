@@ -18,19 +18,78 @@ body {
 }
 
 
+/* *********************** */
+
+
 /* All Button Style */
 
 button {
     padding: 10px 10px;
-    background-color: #0000FA;
+    background-color: #0e65f3;
     border-style: none;
     border-radius: 17px;
     color: #ffffff;
 }
 
+
+/* *************** */
+
+
+/* top Section */
+
 .top_section {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
+    justify-items: center;
+}
+
+.top_section_content {
+    padding-left: 8%;
+    padding-right: 8%;
+}
+
+
+/* ***************** */
+
+
+/* discount area */
+
+.discount_row {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.discound_info {
+    padding-top: 20px;
+    padding-bottom: 40px;
+    text-align: center;
+    line-height: 200%;
+}
+
+.input_items {
+    height: 40px;
+    width: 100%;
+    border: 1px solid;
+    border-radius: 12px;
+    font-size: 16px;
+    text-align: center;
+}
+
+.discound_info button {
+    padding: 17px 32px;
+}
+
+.discound_info>h1 {
+    font-size: 42px;
+}
+
+.discound_info>p {
+    font-size: 24px;
+}
+
+.discount_highight {
+    color: #0e65f3;
 }
 
 
@@ -61,3 +120,6 @@ button {
     padding: 9px 10px;
     border-radius: 50%;
 }
+
+
+/* ******************** */
