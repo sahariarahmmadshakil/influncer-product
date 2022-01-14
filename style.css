@@ -12,8 +12,7 @@ body {
 /* All icon Color */
 
 .fab,
-.far,
-.fas {
+.far {
     color: #ffffff;
 }
 
@@ -50,6 +49,42 @@ button {
 
 
 /* ***************** */
+
+
+/* Product collection area */
+
+
+/* .product_collection {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-items: center;
+} */
+
+.product_catagory {
+    width: 329px;
+    height: 490px;
+    box-shadow: 0 0 20px gray;
+}
+
+.product_img {
+    padding: 14px;
+}
+
+.product_info {
+    padding: 14px 14px 20px 14px;
+}
+
+.filled_star {
+    color: #FB8200;
+}
+
+.unfilled_star {
+    color: #AAAAAA;
+}
+
+.rating_value {
+    margin-left: 50px;
+}
 
 
 /* discount area */
