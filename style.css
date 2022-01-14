@@ -1,0 +1,63 @@
+body {
+    font-family: 'Adamina', serif;
+    font-family: 'Archivo Narrow', sans-serif;
+    font-family: 'Josefin Slab', serif;
+    font-family: 'Jost', sans-serif;
+    font-family: 'Krona One', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Work Sans', sans-serif;
+}
+
+
+/* All icon Color */
+
+.fab,
+.far,
+.fas {
+    color: #ffffff;
+}
+
+
+/* All Button Style */
+
+button {
+    padding: 10px 10px;
+    background-color: #0000FA;
+    border-style: none;
+    border-radius: 17px;
+    color: #ffffff;
+}
+
+.top_section {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+
+/* Footer Area */
+
+.footer_area {
+    background-color: #0a0826;
+    display: flex;
+    justify-content: center;
+}
+
+.footer_content {
+    width: 262px;
+    height: 80%;
+    color: #ffffff;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    line-height: 200%;
+}
+
+.footer_heading {
+    font-size: 24px;
+}
+
+.footer_icon {
+    margin-right: 10px;
+    background-color: #22213c;
+    padding: 9px 10px;
+    border-radius: 50%;
+}
