@@ -39,7 +39,7 @@ button {
 header {
     margin-top: 4%;
     margin-bottom: 4%;
-    margin-left: 4%;
+    margin-left: 5%;
 }
 
 header>h1 {
@@ -58,8 +58,24 @@ header>h1 {
 }
 
 .top_section_content {
-    padding-left: 8%;
+    padding-left: 10%;
     padding-right: 8%;
+}
+
+.top_section_content>h1 {
+    font-size: 52px;
+}
+
+.top_section_content>p {
+    font-size: 18px;
+}
+
+.top_section_img {
+    transition: transform 1.5s;
+}
+
+.top_section_img:hover {
+    transform: scale(1.3);
 }
 
 
@@ -75,17 +91,8 @@ header>h1 {
     width: 80%;
     margin-left: 10%;
     margin-top: 65px;
-    padding-bottom: 6%;
+    padding-bottom: 2%;
 }
-
-
-/* .product_collection_body {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    justify-items: center;
-    width: 80%;
-    margin: 10%;
-} */
 
 .product_catagory {
     width: 329px;
@@ -112,6 +119,17 @@ header>h1 {
 
 .rating_value {
     margin-left: 50px;
+}
+
+
+/* See More Area */
+
+.see_more_btn>p {
+    color: #0e65f3;
+    float: right;
+    margin-right: 11.5%;
+    padding-top: 0%;
+    margin-top: 0%;
 }
 
 
