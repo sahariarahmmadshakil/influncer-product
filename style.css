@@ -23,11 +23,12 @@ body {
 /* All Button Style */
 
 button {
-    padding: 10px 10px;
+    padding: 11px 13px;
     background-color: #0e65f3;
     border-style: none;
     border-radius: 17px;
     color: #ffffff;
+    font-size: 20px;
 }
 
 
@@ -71,7 +72,7 @@ header>h1 {
 }
 
 .top_section_img {
-    transition: transform 1.5s;
+    transition: transform 0.5s;
 }
 
 .top_section_img:hover {
@@ -268,3 +269,61 @@ header>h1 {
 
 
 /* MObile Device Responsive end */
+
+
+/* tab Responsive */
+
+@media only screen and (min-width:689px) and (max-width:992px) {
+    header {
+        margin-top: 4%;
+        margin-bottom: 4%;
+    }
+    header>h1 {
+        font-size: 24px;
+        font-weight: 900;
+        text-align: center;
+    }
+    .top_section {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        align-content: center;
+        margin-top: 4%;
+        margin-bottom: 4%;
+    }
+    .top_section_img>img {
+        width: 100%;
+    }
+    /* ***************** */
+    /* Product collection area */
+    .product_collection {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        justify-items: center;
+        width: 100%;
+        margin-left: 0%;
+    }
+    /* ****************** */
+    /* discount area */
+    .discount_row {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    /* see more btn */
+    .see_more_btn>p {
+        text-align: center;
+        float: none;
+    }
+    .discound_info {
+        padding: 3%;
+    }
+    /* *********************** */
+    .footer_area {
+        background-color: #0a0826;
+        display: flex;
+        justify-content: center;
+    }
+    .discound_info>h1 {
+        font-size: 38px;
+    }
+}
