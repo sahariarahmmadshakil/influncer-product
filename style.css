@@ -84,6 +84,10 @@ header>h1 {
 
 /* Product collection area */
 
+.product_collection_header {
+    text-align: center;
+}
+
 .product_collection {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -204,3 +208,63 @@ header>h1 {
 
 
 /* ******************** */
+
+
+/* Media Queary for mobile devices */
+
+@media only screen and (max-width: 688px) {
+    header {
+        margin-top: 4%;
+        margin-bottom: 4%;
+        margin-left: 0;
+    }
+    header>h1 {
+        font-size: 24px;
+        font-weight: 900;
+        text-align: center;
+    }
+    .top_section {
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        margin: 4%;
+    }
+    .top_section_content>button {
+        margin: auto;
+        display: block;
+    }
+    .top_section_img>img {
+        width: 100%;
+    }
+    /* ***************** */
+    /* Product collection area */
+    .product_collection {
+        display: grid;
+        grid-template-columns: 1fr;
+        justify-items: center;
+        width: 100%;
+        margin: 0;
+    }
+    /* ****************** */
+    /* discount area */
+    .discount_row {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    .discound_info {
+        padding: 3%;
+    }
+    /* *********************** */
+    .footer_area {
+        background-color: #0a0826;
+        display: flex;
+        justify-content: center;
+    }
+    .discound_info>h1 {
+        font-size: 32px;
+    }
+}
+
+
+/* MObile Device Responsive end */
